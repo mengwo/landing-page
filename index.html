@@ -1,36 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Practice Layout</title>
-        <meta charset="utf-8">
-        <meta name="author" content="Emmanuel P. Larion">
-        <meta name="viewport" content="width=device-width, initial-scales=1.0">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="header-container">
+<html>
+	<head>
+		<title>Odin Test</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!--HEADER STARTS HERE-->
+		<header class="header-container">
+			<div class="logo-container">
+				<h1>Header Logo</h1>
+			</div>
+			<nav class="nav-tag-container">
+				<ul class="header-link-container">
+					<li><a href="#section1">header link one</a></li>
+					<li><a href="#section2">header link two</a></li>
+					<li><a href="#section3">header link three</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--HEADER ENDS HERE-->
+		
+		<!--WELCOME PAGE STARTS HERE-->
+		<section class="welcome-page-container" id="section1">
+			<div class="left-content-container">
+				<div class="first-line-content">
+					<h2>This website is awesome<h2>
+				</div>
+				<div class="second-line-content">
+					<p>This website some subtext that here under the main title. It's a smaller font and the color is lower contrast.</p>
+				</div>
+				<div class="button-container">
+					<button>Sign up</button>
 
-            <h1 class="logo-h1"><span>LOGO</span></h1>
-            <nav>
-                <ul class="flex-nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#info">Info</a></li>
-                    <li><a href="#contact">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="section1-container" id="about">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusantium quaerat harum ab dignissimos consequuntur accusamus assumenda eos nisi adipisci, perspiciatis corrupti odio necessitatibus fugiat voluptates quasi ullam, impedit hic!</p>
-        </section>
-        <section class="section2-container" id="info">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusantium quaerat harum ab dignissimos consequuntur accusamus assumenda eos nisi adipisci, perspiciatis corrupti odio necessitatibus fugiat voluptates quasi ullam, impedit hic!</p>
-        </section>
-        <section class="section3-container" id="contact">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, totam deleniti! Fugiat illum doloremque explicabo reprehenderit, facilis animi praesentium maxime ipsam nemo ad voluptatibus iure velit nam, a distinctio recusandae?</p>
-        </section>
-        <footer>
-            <p>copyright</p>
-        </footer>
-    </body>
+				</div>
+			</div>
+			<div class="right-content-container">
+				<p>this is a placeholder for an image</p>
+			</div>
+		</section>
+		<!--WELCOME PAGE ENDS HERE-->
+		
+		<!--INFO PAGE STARTS HERE-->
+		<section class="info-page-container" id="section2">
+				<div class="info-header-container">
+					<h2>Some random information.</h2>
+				</div>
+				<div class="media-container">
+					<div>
+						<div class="first-box">
+						</div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div>
+						<div class="second-box">
+						</div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div>
+						<div class="third-box">
+						</div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div>
+						<div class="fourth-box">
+						</div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+				</div>
+		</section>
+		
+		<!--QOUTE PAGE STARTS HERE-->
+		<section class="qoute-page-container" id="section3">
+			<div class="content-qoute">
+				<p>This is an inspiring qoute, or a testimonial from a customer. Maybe it's just filling up space, or maybe poeple will actually read it. Who knows? All i known is that it look nice.</p>
+			</div>
+			<div class="content-author">
+				<h2>-Thor, God of Thunder</h2>
+			</div>
+		</section>
 
+		<!--SIGNUP AND FOOTER-->
+		<section class="signup-container">
+			<div class="signup-content-container">
+				<div class="signup-content-left">
+					<h2>Call to action! It's time!</h2>
+					<p>Signup for our product by clicking that buttons right over there!</p>
+				</div>
+				<div class="signup-content-right">
+					<button>Sign up</button>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Copyright @ The Odin Project 2023</p>
+		</footer>
+	</body>
 </html>

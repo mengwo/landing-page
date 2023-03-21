@@ -1,79 +1,186 @@
-/*CSS FOR ELEMENT*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+	font-family: Arial;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav{
-    font-weight: bold;
-    dispa;
-}
-
-span{
-    font-size: 30px;
+li {
+	list-style-type: none;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
 }
-li{
-    padding: 10px 10px;
-   
-}
-li:hover{
-    background-color: white;
+button{
+	background-color: #3882f6;
+	border: 1px solid #3882f6;
+	border-radius: 5px;
+	padding: 5px 30px;
+	font-family: inherit;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
 }
 footer{
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	background-color: #1F2937;
+	height: 15vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-/*CSS FOR ELEMENT*/
-/*-----------------------------------------------------------------------------------*/
-/*CSS FOR CLASSES*/
+/* element ends here*/
 
-.header-container{
-    background-color: #f2f;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
+/* class starts here*/
 
-.logo-h1{
-    margin-left: 400px;
-    margin-right: 800px;
+.header-container {
+	background-color: #1F2937;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 16.5px;
+	position: fixed;
+	width: 100%;
+	color: white;
+	
 }
 
-.flex-nav{
-    display: flex;
-    list-style-type: none;
-    column-gap: 20px; 
+.header-link-container{
+	display: flex;
+	gap: 1em;
+	font-size: 18px;
+	color: #E5E7EB;
 }
-.section1-container{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
+.logo-container {
+	font-size: 24px;
+	color: #E5E7EB;
 }
-.section2-container{
-    height: 100vh;
-    width: 100%;
-    background-color: aqua;
+a {
+	color: white;
 }
-.section3-container{
-    height: 100vh;
-    width: 100%;
-    background-color: red;
+
+/* HEADER ENDS HERE*/
+
+
+.welcome-page-container{
+	background-color: #1F2937;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
 }
-/*CSS FOR CLASSES*/
-/*-----------------------------------------------------------------------------------*/
+.left-content-container{
+	text-align: left;
+	width: 50%;
+	padding: 30px;
+	flex-basis: 120px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+
+}
+.first-line-content{
+	font-size: 48px;
+}
+.second-line-content{
+	font-size: 20px;
+	
+}
+.second-line-content p {
+	width: 500px
+}
+.right-content-container{
+	border: 1px solid white;
+	padding: 150px 300px;
+	background-color: #7b89a1;
+	flex-basis: 120px;
+}
+.right-content-container p {
+	text-align: center;
+	width: 400px
+	
+
+}
+
+
+/*WELCOME ENDS HERE*/
+
+.info-page-container {
+	height: 100vh;
+	background-color: alice-blue;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3em;
+	
+}
+.first-box, .second-box, .third-box, .fourth-box {
+	border: 2px solid #3882f6;
+	border-radius: 10px;
+	height: 180px;
+	width: 150px;
+}
+
+.media-container{
+	display: flex;
+	gap: 5em;
+}
+.media-container  p{
+	width: 150px;
+	text-align: center;
+}
+.qoute-page-container {
+	height: 100vh;
+	background-color: #7b89a1;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	justify-content: center;
+}
+.content-qoute{
+	font-style: italic;
+	font-size: 56px;
+	width: 1000px;
+	align-self: center;
+	align-items: center;
+}
+.content-author{
+	width: 1000px;
+	align-self: center;
+}
+.content-author h2{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* QOUTE SECTION ENDS HERE*/
+.signup-container{
+	background-color: white;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signup-content-container {
+	border: 1px solid #3882f6;
+	height: 150px;
+	width:  1000px;
+	background-color: #3882f6;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+.signup-content-right button{
+	border: 1px solid white;
+}
+.signup-content-left {
+	color: white;
+}
